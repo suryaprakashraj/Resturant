@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+body{
+  background-color: hsla(60, 3%, 46%, 0.165);
+}
+.navbar{
+  background-color: white;
+  width: 40%;
+  margin: 50PX auto;
+  border-radius: 10px;
+
+}
+.nav-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.nav-item{
+  list-style: none;
+  padding: 16px 18px;
+}
+.nav-item a{
+  text-decoration: none;
+  color: black;
+}
+.nav-item a:hover{
+  color: gray;
+}
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.card{
+  width: 30%;
+  background-color: white;
+  border: 1px solid black;
+  margin: 20px;
+  max-height: 600px;
+  padding: 20px;
+  
+}
+
+.card-id{
+  border: 1px solid black;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 22px;
+}
+.card-category{
+  font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin: 15px 0;
+}
+.card-item{
+  font-family: "Cormorant Garamond", serif;
+    font-size: 60px;
+    text-transform: capitalize;
+    font-weight: 300;
+    line-height: 60px;
+}
+.card-desc{
+  font-weight: 300;
+  line-height: 22px;
+  margin: 10px 0;
+}
+.card-img{
+  height: 115px;
+  width: 50%;
+  border: 2px solid black;
+  border-radius: 23px;
+}
+.card-button{
+  padding: 5px 13px;
+    border-radius: 8px;
+    border: 2px solid black;
+    margin: 10px 2px;
+    cursor: pointer;
+    display: block;
+}
